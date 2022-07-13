@@ -11,6 +11,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.js' integrity='sha512-pSyYzOKCLD2xoGM1GwkeHbdXgMRVsSqQaaUoHskx/HF09POwvow2VfVEdARIYwdeFLbu+2FCOTRYuiyeGxXkEg==' crossorigin='anonymous'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js' integrity='sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==' crossorigin='anonymous'></script>
+    <style>
+        header {
+            background: #2e3a46;
+            max-height: 50px;
+            padding: 0.5rem 1rem;
+        }
+
+        header img {
+            max-height: calc(50px - 1rem);
+        }
+
+        main {
+            background: #1e2d3b;
+            min-height: 100vh;
+        }
+
+        main .container {
+            background: inherit;
+            padding: 3rem 0;
+        }
+
+        main .container .row .col.card {
+            background: inherit;
+        }
+
+        .col div {
+            background: #2e3a46;
+            height: 100%;
+            margin: 0.5rem 0;
+            padding: 1rem;
+        }
+
+        .col img {
+            width: 100%;
+        }
+
+        .col h5 {
+            color: whitesmoke;
+            text-transform: uppercase;
+            padding: 1rem 0;
+        }
+
+        .col p {
+            color: #6a7176;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,54 +92,5 @@
     </div>
     <script src="vue.js"></script>
 </body>
-
-<style>
-    header {
-        background: #2e3a46;
-        max-height: 50px;
-        padding: 0.5rem 1rem;
-    }
-
-    header img {
-        max-height: calc(50px - 1rem);
-    }
-
-    main {
-        background: #1e2d3b;
-        min-height: 100vh;
-    }
-
-    main .container {
-        background: inherit;
-        padding: 3rem 0;
-    }
-
-    main .container .row .col.card {
-        background: inherit;
-    }
-
-    .col div {
-        background: #2e3a46;
-        height: 100%;
-        margin: 0.5rem 0;
-        padding: 1rem;
-    }
-
-    .col img {
-        width: 100%;
-    }
-
-    .col h5 {
-        color: whitesmoke;
-        text-transform: uppercase;
-        padding: 1rem 0;
-    }
-
-    .col p {
-        color: #6a7176;
-        margin: 0;
-        padding: 0;
-    }
-</style>
 
 </html>
